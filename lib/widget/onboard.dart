@@ -14,6 +14,6 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
   final introKey = GlobalKey<IntroductionScreenState>();
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Container());
+    return Container();
   }
 }

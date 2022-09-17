@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_essentials/pages/onboard.dart';
-import 'package:flutter_essentials/pages/textspan.dart';
+import 'package:flutter_essentials/pages/home.dart';
 
 void main() {
   runApp(App());
@@ -18,7 +17,7 @@ class App extends StatelessWidget {
       title: 'Introduction screen',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: TextSpanWidget(),
+      home: home(),
     );
   }
 }
